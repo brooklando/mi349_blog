@@ -1,2 +1,2 @@
 # mi349_blog
-my blog
+my blog fa my class
