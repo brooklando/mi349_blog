@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My Simple Blog</title>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Blog</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="screen.css">
+  </head>
+  <body>
     <main>
-        <article>
-            <h2>Sample Blog Post</h2>
-            <p>Posted on <time datetime="2023-10-29">October 29, 2023</time> by John Doe</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium nunc quis urna tincidunt, sit amet tincidunt nulla blandit. Cras sit amet lacus ut libero dictum viverra.</p>
-            <p>Donec nec urna eu urna iaculis tincidunt ac non eros. Sed vitae neque sed massa elementum elementum. In hac habitasse platea dictumst.</p>
-        </article>
+      <h1>Hello World</h1>
+      <div class="masthead">
+      </div>
+      <div class="details">
+        <section>
+          <h2>History</h2>
+          <p>Test programs have always existed in software development, but the tradition of using "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language. The example was taken from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, one of the co-creators of the Unix operating system.</p>
+        </section>
+        <section class="with-code">
+          <div class="code-copy">
+            <h2>Example</h2>
+          <p>Here is a JavaScript example:</p>
+          </div>
+          <div class="code-html">
+            <pre><code>
+&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;script&gt;
+      alert('Hello, World!');
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+          </div>
+        </section>
+      </div>
     </main>
-
-    <aside>
-        <h2>Recent Posts</h2>
-        <ul>
-            <li><a href="#">Another Blog Post</a></li>
-            <li><a href="#">New Discoveries</a></li>
-        </ul>
-    </aside>
-
-    <footer>
-        <p>&copy; 2023 My Simple Blog</p>
-    </footer>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
