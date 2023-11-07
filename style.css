@@ -1,11 +1,120 @@
 html {
-    background-color: black;
+    background-color: #D3D3D3;
 }
 
+
 body {
-    margin: 50px;
+    margin: 0px;
     padding: 50px;
-    color: #ffff;
-    border-top: 20px solid #242424;
-    background: #ffff;
+    border-top: 10px solid #242424;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #FFFFFF;
+}
+
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #242424;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+#omoriimg {
+    float:left;
+}
+
+#fallout {
+    float:right;
+}
+
+
+p {
+    line-height: 2em;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.tbl {
+    text-align: left;
+}
+
+#blog {
+    border-top: 1px solid #242424;
+}
+
+#fallout {
+    width: 500px
+}
+
+.blog-post {
+    border-bottom: 1px solid #242424;
+}
+
+.aboutflex {
+    display: flex;
+}
+
+.aboutflex article {
+    padding: 20px;
+    margin: 20px;
+    flex: 100px;
+}
+
+.aboutflex article:nth-of-type(1) {
+    background-color: gray;
+    border-radius: 20px;
+    flex: 150px;
+}
+
+.aboutflex article:nth-of-type(2) {
+    background-color: #a3a3a3; 
+    border-radius: 20px;
+    flex: 200px;
+}
+
+#raccoon {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+#contactnav {
+    background: #FFFFFF;
+    padding-bottom: 20px;
 }
